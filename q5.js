@@ -11,10 +11,9 @@ function changeValue(a,n){
     //c
     for(let i=0; i<n;i++){
         //asli
+
         //farei
     }
-
-
 
 
 }
