@@ -1,0 +1,1 @@
+console.log("gozine 3. hal nadaram tozihesho benevisam age lazem bood voice midam :))");
