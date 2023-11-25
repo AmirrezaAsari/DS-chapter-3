@@ -1,15 +1,14 @@
 function c(n,r){
-    let numinator = []; //soorat kasr
-    let denuminator = []; //makhraj kasr
+    let numinator = 1; //soorat kasr
+    let denuminator = 1; //makhraj kasr
     for(let i = 0; i<r; i++){
-        numinator[i] = n-i
+        numinator *= n-i;
     }
-    console.log(numinator);
     for(let i=0; i<r;i++){
-        denuminator[i] = r-i;
+        denuminator *= r-i;
     }
-    console.log(denuminator);
+    return (numinator/denuminator);
 
 }
 
-c(6, 5);
+console.log(c(3, 2));
