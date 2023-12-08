@@ -10,4 +10,4 @@ function bigNumberFact(n){
 }
 
 
-console.log(bigNumberFact(20));
+console.log(bigNumberFact(5));
