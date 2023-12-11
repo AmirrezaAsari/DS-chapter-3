@@ -1,10 +1,3 @@
-let matrix = [
-    [2,6,1],
-    [1,12,4],
-    [3,8,5],
-    [5,2,1]
-]
-
 function insertionSort(arr) {
     let n = arr.length;
     for (let i = 1; i < n; i++) {
@@ -29,5 +22,13 @@ function rowSort(arr){
     }
     return arr;
 }
+
+
+let matrix = [
+    [2,6,1],
+    [1,12,4],
+    [3,8,5],
+    [5,2,1]
+]
 
 console.log(rowSort(matrix));
