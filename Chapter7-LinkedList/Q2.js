@@ -7,7 +7,7 @@ function Q2(Node h1, Node h2){
     Node s;
     if(h1.value < h2.value){
         head.h1;
-        h7 = h7.next;
+        h7 = h1.next;
     }
     else {
         head = h2;
